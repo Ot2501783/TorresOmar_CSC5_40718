@@ -14,9 +14,9 @@ using namespace std;
  */
 int main(int argc, char** argv) {
 //Declare Variables
-    int op1,op2,sum=0,prod=0;
+    int op1,op2,sum=0,prod=1;
     //Prompt for the two operands
-    cout<<"input 2 integers having a range of [-2^31,"
+    cout<<"input 2 integers"<<
             cin>>op1>>op2
             //Calculate the sum and the products
             sum=sum+op1
