@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
     //Calculate sales price, commission and total in $'s
     float slPrice=nShares*skPrice; 
     float cmPrice=slPrice*comish/CONVPCT;
-    float totPaid=slPrice+cmPrice
+    float totPaid=slPrice+cmPrice;
     //output results
     cout<<fixed<<setprecision(2)<<showpoint;
     cout<<"Sales Price = $"<<setw(8)<<slPrice<<endl;
