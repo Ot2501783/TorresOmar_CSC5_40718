@@ -22,13 +22,13 @@ int main(int argc, char** argv) {
     float inTown=21.5;//In town miles per gallon 
     float onHway=26.8;//Highway miles per gallon 
     //Calculate the total miles in and out of town
-    float disTown=gasTank*inTown;
-    float disHway=gasTank*onHway;
+    float disTown = gasTank*inTown;
+    float disHway = gasTank*onHway;
     //Output results 
-    cout<<"Distance in town on a tank of gas = "<<
-    cout<<disTown<<"(miles)"<<endl;
-    cout<<"Distance in highway on a tank of gas = "<<
-    cout<<disTown<<"(miles)"<<endl;
+    cout<<"Distance in town on a tank of gas = ";
+    cout<<disTown<<"(miles) \n";
+    cout<<"Distance in highway on a tank of gas = ";
+    cout<<disHway<<"(miles) \n";
     return 0;
 }
 
