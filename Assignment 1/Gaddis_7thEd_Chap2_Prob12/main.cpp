@@ -22,15 +22,15 @@ const unsigned short CVFTACS=43560;//Acre conversion
 int main(int argc, char** argv) {
 using namespace std;
  //Declare Variables
-float inSqFt,outAcrs;
+float inSqFt, outAcrs;
 //Prompt for input
-cout<<"Input the number of square feet"<<endl;
-cout<<"to convert to Acres"<<endl;
+cout<< "Input the number of square feet \n";  
+cout<<"to convert to Acres \n" ;
 cin>>inSqFt;
 //Calculate Acres
 outAcrs=inSqFt/CVFTACS;
 //Output the results
 cout<<inSqFt<<"(sq feet) = ";
-cout<<outAcrs<<"(acres)"endl;
+cout<<outAcrs<< "(acres) \n";  
     return 0;
 }
