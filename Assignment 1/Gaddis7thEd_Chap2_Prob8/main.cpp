@@ -17,9 +17,10 @@ float slstx=.6//sales tax 6%
   
 // Execution Begins here
 int main(int argc, char** argv) {
+    
 //Declare variables 
-    float itm1=12.95;//in $ 
-    float itm2=54.92;//in $
+    float itmone=12.95;//in $ 
+    float itmtwo54.92;//in $
     float itm3=6.95;//in $
     float itm4=14.95;//in $
     float itm5=3.95;//in $
