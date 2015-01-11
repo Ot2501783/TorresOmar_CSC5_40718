@@ -21,7 +21,8 @@ int main(int argc, char** argv) {
     //Declare Variables 
     float mpg;
     //Calculate miles per gallon (MPG)
-    mpg=mlstrv/galgas; 
+    
+    MPG; 
     //Display results 
     cout<<"A car with a " << galgas <<" gallon tank of gas" <<endl;
     cout<<"That travels " << mlstrv <<" miles" <<endl;
