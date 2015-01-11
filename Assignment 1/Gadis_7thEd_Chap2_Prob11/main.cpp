@@ -4,18 +4,18 @@
  * Created on January 8, 2015, 7:45 PM
  * Purpose: Homework Assignment (Gaddis_7thEd_Chap11_Prob12)
  */
-
+//User Libraries 
 #include <iostream>
 #include <iomanip>
 using namespace std;
 
- //User Libraries
+//User Libraries
   
-  //Global Constants 
+//Global Constants 
  
-  //Function Prototypes
+//Function Prototypes
   
-  // Execution Begins here
+// Execution Begins here
 int main(int argc, char** argv) {
 //Declare and Initialize Variables
     float gasTank=20;//Max gallons in out gas tank

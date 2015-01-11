@@ -16,9 +16,7 @@ const unsigned short CVFTACS=43560;//Acre conversion
  
   //Function Prototypes
   
-  // Execution Begins here
-
-
+  // Execution Begins her
 int main(int argc, char** argv) {
 using namespace std;
  //Declare Variables

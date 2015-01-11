@@ -4,19 +4,19 @@
  * Created on January 8, 2015, 6:25 PM
  * Purpose: Homework Assignment (Gaddis_7thEd_Chap2_Prob17)
  */
-
+//system Libraries
 #include <iostream>
 #include <iomanip>
 using namespace std;
 
- //User Libraries
+//User Libraries
   
-  //Global Constants 
+//Global Constants 
 const char CONVPCT=100;//Percent Conversion 
 
-  //Function Prototypes
+//Function Prototypes
   
-  // Execution Begins here
+// Execution Begins here
 int main(int argc, char** argv) {
     //Declare and initialize variables 
     float  skPrice=2.177e1f;//Stock Price in $'s
