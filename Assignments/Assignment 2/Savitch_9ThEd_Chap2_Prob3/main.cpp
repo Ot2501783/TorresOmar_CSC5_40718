@@ -16,7 +16,7 @@ const int CNVMNSC=60;//Conversion from Min to Sec
 
 //Function Prototypes
 
-//Esecution Begins Here
+//Execution Begins Here
 int main(int argc, char** argv) {
     //Declare Variables
     float mph;//Miles per hour on a treadmill
