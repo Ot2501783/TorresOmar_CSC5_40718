@@ -10,10 +10,10 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-    //Declare 2 boolean variables
+       //Declare 2 boolean variables
     bool X,Y;
     //Output the Heading
-    cout<<"X Y !X !Y X&&Y X||Y X^Y X^Y^Y";
+    cout<<"X Y !X !Y X&&Y X||Y X^Y X^Y^Y ";
     cout<<"X^Y^X !(X||Y) !X&&!Y !(X&&Y) !X||!Y"<<endl;
     //Fill in the first row
     X=true;Y=true;
@@ -21,64 +21,22 @@ int main(int argc, char** argv) {
     cout<<(Y?'T':'F')<<"  ";
     cout<<(!X?'T':'F')<<"  ";
     cout<<(!Y?'T':'F')<<"   ";
-    cout<<(X&Y?'T':'F')<<"   ";
-    cout<<(X||Y?'T':'F')<<"           ";
-    cout<<(X^Y?'T':'F')<<"  ";
-    cout<<(X^Y^Y?'T':'F')<<"        ";
-    cout<<(X^Y^X?'T':'F')<<"       ";
-    cout<<(!(X||Y)?'T':'F')<<"     ";
-    cout<<((!X&&!Y)?'T':'F')<<"     ";
-    cout<<(!(X&&Y)?'T':'F')<<"      ";
-    cout<<(!X||!Y?'T':'F')<<"        ";
+    cout<<(X&&Y?'T':'F')<<"    ";
+    cout<<(X||Y?'T':'F')<<"   ";
+    cout<<(X^Y?'T':'F')<<" ";
+    cout<<(X^Y^Y?'T'):
     cout<<endl;
-    
-      Y=true;X=true;
-    cout<<(Y?'T':'F')<<" ";
-    cout<<(X?'T':'F')<<"  ";
-    cout<<(!Y?'T':'F')<<"  ";
-    cout<<(!X?'T':'F')<<"   ";
-    cout<<(Y&X?'T':'F')<<"  ";
-    cout<<(Y||X?'T':'F')<<"        ";
-    cout<<(Y^X?'T':'F')<<"";
-    cout<<(Y^X^X?'T':'F')<<"        ";
-    cout<<(Y^X^Y?'T':'F')<<"       ";
-    cout<<(!(Y||X)?'T':'F')<<"     ";
-    cout<<((!Y&&!X)?'T':'F')<<"     ";
-    cout<<(!(Y&&X)?'T':'F')<<"      ";
-    cout<<(!Y||!X?'T':'F')<<"        ";
-    cout<<endl;
-    
-      Y=false;X=false;
-    cout<<(Y?'T':'F')<<" ";
-    cout<<(X?'T':'F')<<"  ";
-    cout<<(!Y?'T':'F')<<"  ";
-    cout<<(!X?'T':'F')<<"   ";
-    cout<<(Y&X?'T':'F')<<"  ";
-    cout<<(Y||X?'T':'F')<<"        ";
-    cout<<(Y^X?'T':'F')<<"";
-    cout<<(Y^X^X?'T':'F')<<"        ";
-    cout<<(Y^X^Y?'T':'F')<<"       ";
-    cout<<(!(Y||X)?'T':'F')<<"     ";
-    cout<<((!Y&&!X)?'T':'F')<<"     ";
-    cout<<(!(Y&&X)?'T':'F')<<"      ";
-    cout<<(!Y||!X?'T':'F')<<"        ";
-    cout<<endl;
-    
-       Y=false;X=false;
+    //Fill in the second row
+    Y=false;
     cout<<(X?'T':'F')<<" ";
     cout<<(Y?'T':'F')<<"  ";
     cout<<(!X?'T':'F')<<"  ";
     cout<<(!Y?'T':'F')<<"   ";
-    cout<<(X&Y?'T':'F')<<"  ";
-    cout<<(X||Y?'T':'F')<<"        ";
-    cout<<(X^Y?'T':'F')<<"";
-    cout<<(X^Y^Y?'T':'F')<<"        ";
-    cout<<(X^Y^X?'T':'F')<<"       ";
-    cout<<(!(X||Y)?'T':'F')<<"     ";
-    cout<<((!X&&!Y)?'T':'F')<<"     ";
-    cout<<(!(X&&Y)?'T':'F')<<"      ";
-    cout<<(!X||!Y?'T':'F')<<"        ";
+    cout<<(X&&Y?'T':'F')<<"    ";
+    cout<<(X||Y?'T':'F')<<"   ";
+    cout<<(X^Y?'T':'F')<<" ";
     cout<<endl;
+    //Exit stage right!
     return 0;
 }
 
