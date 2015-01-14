@@ -23,8 +23,8 @@ int main(int argc, char** argv) {
     cout<<(!Y?'T':'F')<<"   ";
     cout<<(X&&Y?'T':'F')<<"    ";
     cout<<(X||Y?'T':'F')<<"   ";
-    cout<<(X^Y?'T':'F')<<" ";
-    cout<<(X^Y^Y?'T'):
+    cout<<(X^Y?'T':'F')<<"    ";
+    cout<<(X^Y^Y?'T':'F')<<"    ";
     cout<<endl;
     //Fill in the second row
     Y=false;
