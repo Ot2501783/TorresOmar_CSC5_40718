@@ -32,8 +32,8 @@ int main(int argc, char** argv) {
     else if(month==1&&day>=20)sign="Aquarius";
     else if(month==2&&day<=18)sign="Aquarius";
 //Output the sign and the cusp
-    if (month==1&&day>18&&<22)cusp=true;
-    if (month==2&&day>16&&<20)cusp=true;
+    if (month==1&&day>18&&day<22)cusp=true;
+    if (month==2&&day>16&&day<20)cusp=true;
     cout<<"your sign is "<<sign;
     if(cusp)cout<<" and you are on the cusp"<<endl;
     else cout<<endl;
