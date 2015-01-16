@@ -24,7 +24,12 @@ int main(int argc, char** argv) {
     cout<<(X&&Y?'T':'F')<<"    ";
     cout<<(X||Y?'T':'F')<<"   ";
     cout<<(X^Y?'T':'F')<<"    ";
-    cout<<(X^Y^Y?'T':'F')<<"    ";
+    cout<<(X^Y^Y?'T':'F')<<"      ";
+    cout<<(X^Y^X?'T':'F')<<"      ";
+    cout<<(!(X||Y)?'T':'F')<<"      ";
+    cout<<(!X&&!Y?'T':'F')<<"      ";
+    cout<<(!(X&&Y)?'T':'F')<<"      ";
+    cout<<(!X||!Y?'T':'F')<<"       ";
     cout<<endl;
     //Fill in the second row
     Y=false;
@@ -34,7 +39,45 @@ int main(int argc, char** argv) {
     cout<<(!Y?'T':'F')<<"   ";
     cout<<(X&&Y?'T':'F')<<"    ";
     cout<<(X||Y?'T':'F')<<"   ";
-    cout<<(X^Y?'T':'F')<<" ";
+    cout<<(X^Y?'T':'F')<<"    ";
+    cout<<(X^Y^Y?'T':'F')<<"      ";
+    cout<<(X^Y^X?'T':'F')<<"      ";
+    cout<<(!(X||Y)?'T':'F')<<"      ";
+    cout<<(!X&&!Y?'T':'F')<<"      ";
+    cout<<(!(X&&Y)?'T':'F')<<"      ";
+    cout<<(!X||!Y?'T':'F')<<"       ";
+    cout<<endl;
+    //Fill in the third row
+    X=true;Y=false;
+    cout<<(Y?'T':'F')<<" ";
+    cout<<(X?'T':'F')<<"  ";
+    cout<<(!Y?'T':'F')<<"  ";
+    cout<<(!X?'T':'F')<<"   ";
+    cout<<(Y&&X?'T':'F')<<"    ";
+    cout<<(Y||X?'T':'F')<<"   ";
+    cout<<(Y^X?'T':'F')<<"    ";
+    cout<<(Y^X^X?'T':'F')<<"      ";
+    cout<<(Y^X^Y?'T':'F')<<"      ";
+    cout<<(!(Y||X)?'T':'F')<<"      ";
+    cout<<(!Y&&!X?'T':'F')<<"      ";
+    cout<<(!(Y&&X)?'T':'F')<<"      ";
+    cout<<(!Y||!X?'T':'F')<<"       ";
+    cout<<endl;
+    //Fill in the fourth row
+    X=false;Y=false;
+    cout<<(Y?'T':'F')<<" ";
+    cout<<(X?'T':'F')<<"  ";
+    cout<<(!Y?'T':'F')<<"  ";
+    cout<<(!X?'T':'F')<<"   ";
+    cout<<(Y&&X?'T':'F')<<"    ";
+    cout<<(Y||X?'T':'F')<<"   ";
+    cout<<(Y^X?'T':'F')<<"    ";
+    cout<<(Y^X^X?'T':'F')<<"      ";
+    cout<<(Y^X^Y?'T':'F')<<"      ";
+    cout<<(!(Y||X)?'T':'F')<<"      ";
+    cout<<(!Y&&!X?'T':'F')<<"      ";
+    cout<<(!(Y&&X)?'T':'F')<<"      ";
+    cout<<(!Y||!X?'T':'F')<<"       ";
     cout<<endl;
     //Exit stage right!
     return 0;
