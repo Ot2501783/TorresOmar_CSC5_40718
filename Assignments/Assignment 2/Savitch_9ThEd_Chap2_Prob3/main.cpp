@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
  * Author: Omar Torres
- * Created on January 13, 2015, 8:48 PM
- * 
+ * Created: on January 13, 2015, 8:48 PM
+ * Purpose: Savitch_9thEd_Chap2_Prob3
  */
 
 #include <iostream>
