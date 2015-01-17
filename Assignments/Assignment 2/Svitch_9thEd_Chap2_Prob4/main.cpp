@@ -47,6 +47,7 @@ int main(int argc, char** argv) {
     cout<<" "<<endl;
             
     cout<<" Dear Instructor "<<ifname<<","<<endl;
+    cout<<" "<<endl;
     cout<<" I am sorry that I am unable to turn in my homework at this time. First, "<<endl;
     cout<<" I ate a rotten "<<food<<" witch made me turn "<<color<<" and extremely ill. I"<<endl;
     cout<<" I came down with a fever of "<<numb<<". Next my "<<adj<<" pet "<<endl;
