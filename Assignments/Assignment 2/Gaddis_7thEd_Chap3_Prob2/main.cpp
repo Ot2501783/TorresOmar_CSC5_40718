@@ -36,10 +36,10 @@ int main(int argc, char** argv) {
     slsclc=classC*nbrclsc;
     totsls=slscla+slsclb+slsclc;
     //Display output
-    cout << " Total sales for Class A were= "<<slscla<< " $ "<<endl;
-    cout << " Total sales for Class B were= "<<slsclb<< " $ "<<endl;
-    cout << " Total sales for Class C were= "<<slsclc<< " $ "<<endl;
-    cout << " Total sales were=            "<<totsls<<" $ "<<endl;
+    cout << " Total sales for Class A were "<<slscla<< " $ "<<endl;
+    cout << " Total sales for Class B were "<<slsclb<< " $ "<<endl;
+    cout << " Total sales for Class C were "<<slsclc<< " $ "<<endl;
+    cout << " Total sales were              "<<totsls<<" $ "<<endl;
             
     
     return 0;
