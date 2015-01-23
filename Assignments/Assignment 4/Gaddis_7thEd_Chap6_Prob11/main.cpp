@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
     //output results
     cout << " The average = "<<avg<<endl;
     //Exit stage right!
-           
+  
     return 0;
 }
 
